@@ -1,0 +1,20 @@
+export const Colors = {
+  Light: "#e6f6ef",
+  LightHover: "#d9f2e8",
+  LightActive: "#b1e4cf",
+  Normal: "#02a963",
+  NormalHover: "#029859",
+  NormalActive: "#02874f",
+  Dark: "#027f4a",
+  DarkHover: "#01653b",
+  DarkActive: "#014c2d",
+  Darker: "#013b23",
+  Black: "#1E1E1E",
+  Grey: "#5E5E5E",
+  White: "#F9F9F9",
+
+  Accent: "#F9B411",
+  Warning: "#F99303",
+  Critical: "DA3C21",
+  Good: "#1CA852",
+};
