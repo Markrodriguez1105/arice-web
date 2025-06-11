@@ -1,0 +1,44 @@
+[
+  {
+    "day": "MON",
+    "temp": 22,
+    "icon": "sun",
+    "wind": 10.5
+  },
+  {
+    "day": "TUE",
+    "temp": 18,
+    "icon": "cloud",
+    "wind": 8.3
+  },
+  {
+    "day": "WED",
+    "temp": 20,
+    "icon": "cloud-rain",
+    "wind": 12.7
+  },
+  {
+    "day": "THU",
+    "temp": 25,
+    "icon": "sun",
+    "wind": 15.2
+  },
+  {
+    "day": "FRI",
+    "temp": 21,
+    "icon": "wind",
+    "wind": 20.9
+  },
+  {
+    "day": "SAT",
+    "temp": 19,
+    "icon": "cloud",
+    "wind": 9.4
+  },
+  {
+    "day": "SUN",
+    "temp": 23,
+    "icon": "sun",
+    "wind": 11.6
+  }
+]

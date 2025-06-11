@@ -1,8 +1,9 @@
 import { Colors } from "@/constant/Colors";
 import { textStyle } from "@/constant/TextStyle";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { router } from "expo-router";
 import React, { useState } from "react";
-import { Image, StyleSheet, Text, View } from "react-native";
+import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import {
   Gesture,
   GestureDetector,
@@ -107,29 +108,31 @@ export default function PhoneWeather() {
           <Animated.View style={[{ flex: 1, gap: 10 }, fadeAnimatedStyle]}>
             {swap ? showPhoneDesign() : showPhoneTemp()}
           </Animated.View>
-          <View
-            style={{
-              width: 70,
-              height: 70,
-              alignItems: "center",
-              justifyContent: "center",
-              backgroundColor: Colors.Normal,
-              borderRadius: 10,
-              position: "absolute",
-              bottom: -30,
-              left: "50%",
-              transform: [{ translateX: "-50%" }],
-            }}
-          >
-            <MaterialCommunityIcons
-              name="weather-cloudy"
-              size={30}
-              color={Colors.White}
-            />
-            <Text style={[textStyle.note, { color: Colors.White }]}>
-              Weather
-            </Text>
-          </View>
+          <TouchableOpacity onPress={() => router.navigate("/Weather")}>
+            <View
+              style={{
+                width: 70,
+                height: 70,
+                alignItems: "center",
+                justifyContent: "center",
+                backgroundColor: Colors.Normal,
+                borderRadius: 10,
+                position: "absolute",
+                bottom: -30,
+                left: "50%",
+                transform: [{ translateX: "-50%" }],
+              }}
+            >
+              <MaterialCommunityIcons
+                name="weather-cloudy"
+                size={30}
+                color={Colors.White}
+              />
+              <Text style={[textStyle.note, { color: Colors.White }]}>
+                Weather
+              </Text>
+            </View>
+          </TouchableOpacity>
         </View>
       </GestureDetector>
     </GestureHandlerRootView>

@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import PhoneWeather from "@/components/ui/phone/HomeWeather";
 import PhoneSoil from "@/components/ui/phone/PhoneSoil";
 import { Colors } from "@/constant/Colors";
@@ -14,25 +15,7 @@ export default function index() {
         colors={[Colors.White, Colors.LightHover]}
         style={styles.heroSection}
       >
-        <View style={styles.navigation}>
-          <Text style={[textStyle.body, { color: Colors.Normal }]}>
-            A.R.I.C.E.
-          </Text>
-          <View style={{ flexDirection: "row", gap: 20, alignItems: "center" }}>
-            <Text style={{ color: Colors.Normal }}>About</Text>
-            <Text style={{ color: Colors.Normal }}>Feedback</Text>
-            <Text
-              style={{
-                backgroundColor: Colors.Normal,
-                padding: 10,
-                borderRadius: 10,
-                color: Colors.White,
-              }}
-            >
-              Download
-            </Text>
-          </View>
-        </View>
+        <Header />
         <View style={styles.logoSection}>
           <Image
             style={{ width: 200, height: 200 }}
@@ -157,11 +140,7 @@ const styles = StyleSheet.create({
     paddingBottom: 100,
     paddingHorizontal: 50,
   },
-  navigation: {
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "space-between",
-  },
+
   logoSection: {
     justifyContent: "center",
     alignItems: "center",
