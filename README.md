@@ -107,6 +107,3 @@ npm install
 # 3. Run the app (web version)
 npm run web
 ```
-
-> For mobile testing:  
-Use `npx expo start` and scan the QR code using the Expo Go app.
