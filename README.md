@@ -1,7 +1,7 @@
 
-# 🌦️ GenCast Weather Forecast App
+# 🌦️ ARICE Weather Forecast App
 
-A cross-platform weather forecasting application built with **React Native** and **Expo** for the web, powered by **GenCast**, Google's cutting-edge AI weather model developed by DeepMind.
+A cross-platform weather forecasting application built with **React Native** and **Expo** for the web and mobile, powered by **GenCast**, Google's cutting-edge AI weather model developed by DeepMind.
 
 This project focuses on **showcasing the application** of AI-based weather forecasting through a clean, mobile-first user interface.
 
