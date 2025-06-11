@@ -72,11 +72,12 @@ This project focuses on **showcasing the application** of AI-based weather forec
 ---
 
 ## 📸 Screenshots
-- Landing Page
+### Landing Page
 ![image](https://github.com/user-attachments/assets/438e9baf-851f-4fe7-8e30-683cd05cab1d)
 ![image](https://github.com/user-attachments/assets/f5002091-73b4-41d9-8c21-ca85e97f9ab8)
 ![image](https://github.com/user-attachments/assets/b6fe70b8-e443-4b00-adb7-b7a70d09d661)
-- Weather Forecast
+
+### Weather Forecast
 ![image](https://github.com/user-attachments/assets/d183d642-938a-4f45-9407-b81f0a9aefeb)
 ![image](https://github.com/user-attachments/assets/bbbabc17-b836-423b-b303-415d85fc2b04)
 
